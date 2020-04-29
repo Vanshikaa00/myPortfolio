@@ -1,0 +1,85 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbarstyling{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: x-large;
+
+}
+.imgsize{
+    max-height: 100%;
+    max-width: 100%;
+}
+.imgsize1{
+    max-width: 85%;
+    max-height: 85%;
+}
+.black{
+    color: #3376C4;
+}
+.introstyling
+{
+    font-family: 'Rochester', cursive;
+    font-size: 90px;
+    color: #937BD7;
+}
+.subtext{
+    font-family: 'Nanum Myeongjo', serif;
+    letter-spacing: 2px;
+color:#7C91BC;
+}
+
+.aboutmestyling{
+    text-align: justify;
+}
+
+.centeralign{
+    text-align: center;
+}
+td{
+    color: #3376C4;
+
+}
+.headingstyling{
+    font-family: 'Parisienne', cursive;
+    font-size: xx-large;
+    color:#004BB6;
+}
+.contentstyling{
+    font-family: 'Poiret One', cursive;
+    color: #3376C4;
+}
+.label {
+    color: white;
+    padding: 8px;
+}
+.footerstyling{
+    font-family: 'Parisienne', cursive;
+    font-size: xx-large;
+  color: #004BB6;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.info {background-color: #2196F3;} /* Blue */
+.warning {background-color: #ff9800;} /* Orange */
+.danger {background-color: #f44336;} /* Red */
+
+
+
+
+
+
+/*for cell/mobile phones*/
+@media only screen and (min-width: 360px) and (max-width: 812px)  {
+.introstyling{
+    font-size: 30px;
+
+}
+
+}
+/*ipad and ipad pro*/
+@media only screen and (min-width: 768px) and (max-width: 1023px)  {
+    .introstyling{
+        font-size: 60px;
+    }
+}
